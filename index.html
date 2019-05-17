@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Monda|Russo+One" rel="stylesheet">
+    <!--Chargement de la feuille de style open iconic-->
+    <link href="./open-iconic/font/css/open-iconic-foundation.css" rel="stylesheet">
+  
+    <title>Document</title>
+</head>
+<body>
+    <header>
+       <nav>
+            <a href="">
+                <span>Jack TAN</span>
+            </a>
+
+            
+            <a href="cvjt.pdf" target="_blank" download="cvjt.pdf">
+                    <span>CV</span>
+            </a>
+
+            <a href="">
+                    <span>JEU</span>
+            </a>
+            <a href="">
+                <img src="./logo/github.png" alt=""  width="20px">
+                   
+            </a>
+            
+       </nav>
+     
+        
+    </header>
+   
+    <div id="bann">  
+       
+        <div id="cvs">
+            <canvas id="canvas" width="320" height="516" ></canvas>
+           
+        </div>
+     
+        <div id="intro">
+            <h1>Bienvenue à mon atelier</h1>
+            <h3>Passionné par le web, je souhaiterais partager <br> mes compétences  et mes découvertes dans<br> l'écosystème Javascript.</h3>
+         
+            <p>
+                Venez jouer FlappyBird avec moi ! <br>
+                Ce jeu est réalisé en HTLM, CSS, CANVAS et JS.<br>
+                Il comporte une gestion de score et les éléments <br>
+                de mon curriculum vitae apparaitront au fur et <br>
+                à mesure des scores.
+
+            </p>
+        </div>
+   
+        <div id="competence"  >
+            <div id="js">
+                <h2>COMPETENCES</h2>
+                <h3>Javascript developer fullstack </h3>
+                <h4>Back-end: MongoDB, NodeJS, ExpressJS, MeteorJS, Ajax <br>   
+                    Front-end: Photoshop, JavaScript/DOM, AngularJS, VueJS, jQuery
+                </h4>
+                <ul>
+                    <li>Design numérique</li>
+                    <li>Créer et structurer des bases de données</li>
+                    <li>Développer une application Internet (Front et Back-end JS)</li>
+                    <li>Construire et sécuriser les données relationnelles</li>
+                    <li>Procéder aux tests de vérification</li>
+                </ul>
+
+            </div>
+
+            <div id="cciale">
+             
+                <h3>Commerciale </h3>
+                <h4>Expériences grands comptes <br>   
+                    
+                </h4>
+                <ul>
+                    <li>Prospecter, auditer et fideliser le portefeuille clients</li>
+                    <li>Créateur de valeur ajouter</li>
+                    <li>Optimisation du CA</li>
+                    <li>Coordination du travail des équipes</li>
+                    <li>Négocier les accords annuels</li>
+                </ul>
+
+            </div>
+
+            <div id="exp">
+                <br>
+               
+                <h2>EXPERIENCES</h2>
+                <h3>Responsable développement commercial</h3>
+                <h4>KAPA Reynolds, 25 M€ CA, Sept 2018-Jan 2019, Retail | MDD</h4>
+                <p>Spécialiste en développement de produits Private Label/MDD</p>
+                
+                <h3>Commercial grands comptes</h3>
+                <h4>AZICOM, 400 K€ CA, Sept 2015-Juil 2018</h4>
+                <p>Communication par l'objet</p>
+
+                <h3>Business developer</h3>
+                <h4>Fournil de choisy , Groupe de restauration HCR & FMCG, Déc 2001-Aout 2015</h4>
+                <p>Acquisition et exploitation les brasseries parisiennes</p>
+
+            </div>
+    
+        </div>
+
+    </div>
+    <div id="anim">
+        <div class="container">
+            <div class="card">
+                <div class="button" id="button1">
+                        Click Me!
+                </div>
+                <div class="box" id="box1">
+                    Up side !
+                </div>
+
+            </div>
+            <div class="card">
+                <ul>
+                    <li class="buttonSort"><span>Click me!!</span></li>
+                    <li class="buttonSort"><span>Click me!!</span></li>
+                    <li class="buttonSort"><span>Click me!!</span></li>
+                    <li class="buttonSort"><span>Click me!!</span></li>
+                </ul>
+                <!-- <div class="button" id="button2">
+                        Click Me!
+                </div>
+                <div class="box" id="box2">
+                    <img src="./logo/node.png" alt="" width="100%">
+                </div> -->
+
+            </div>
+            <div class="card">
+                <div class="button" id="button3" >
+                        Click Me!
+                </div>
+                <div class="box" id="box3">
+                   <img src="./logo/js.png" alt="" width="100%">
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <section class="sortable">
+        <div class="h2" >
+                <h2>Drag & Drop</h2>
+                
+        </div>
+        
+        
+        <div class="containerSort">
+            <div class="emptyList">
+                
+                <ul id="sortList1" class="droptrue">
+                    <li class="ui-state-default">Can be dropped..</li>
+                    <li class="ui-state-default">..on an empty list</li>
+                    <li class="ui-state-default">Item 3</li>
+                    <li class="ui-state-default">Item 4</li>
+                    <li class="ui-state-default">Item 5</li>
+
+                </ul>
+                
+                <ul id="sortList2" class="dropfalse">
+                    <li class="sortSelect">22Cannot be dropped..</li>
+                    <li class="sortSelect">..on an empty list</li>
+                    <li class="sortSelect">Item 3</li>
+                    <li class="sortSelect">Item 4</li>
+                    <li class="sortSelect">Item 5</li>
+                </ul>
+                <ul id="sortList3" class="droptrue">
+                    </ul>
+                        
+                    <br style="clear:both">
+            </div>
+            <div class="textseo">
+                <h2>Des informations en un simple coup d'œil</h2> 
+                <p>
+                    Plongez au cœur des détails en ajoutant des commentaires, des pièces jointes, des dates limites et d'autres éléments directement dans vos cartes Trello. Collaborez afin de réaliser vos projets de A à Z.
+                </p>
+            </div>
+        </div>
+        
+    </section>
+    <section>
+      
+        <div class="containerSort">
+            <div class="textseo">
+                    <h2>Collaborez avec toutes les équipes</h2>
+                    <p>
+                        Que ce soit pour votre travail, pour un projet parallèle ou même pour vos prochaines vacances en famille, Trello aide votre équipe à rester organisée.
+                    </p>
+            </div>
+            <div class="toDoList">
+                <span><h2>Tâches des équipes</h2></span> 
+                <div class="column">
+                    <h3>À faire</h3>
+
+                    <div class="portlet">
+                        <div class="portlet-header">Station F</div>
+                        <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                    </div>
+                    
+                    <div class="portlet">
+                        <div class="portlet-header" class="fi-sort-ascending">Lancer le site Web</div>
+                        <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                    </div>
+                    
+                </div>
+                    
+                <div class="column">
+                    
+                    <h3>En cours</h3>
+                    <div class="portlet">
+                        <div class="portlet-header">Publier le podcast</div>
+                        <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                    </div>
+                    
+                </div>
+                    
+                <div class="column">
+                    <h3>Terminé</h3>
+                    
+                    <div class="portlet">
+                        <div class="portlet-header">Réunion client</div>
+                        <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                    </div>
+                    
+                    <div class="portlet">
+                        <div class="portlet-header">Happy Hours</div>
+                        <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                    </div>
+                        
+                </div>
+            </div>
+            
+        
+        </div>
+    </section>
+
+   
+    <div>
+        <button><a href="cvjt.pdf" target="_blank" download="cvjt.pdf">Mon Cv</a> </button>
+        <button>like</button>
+
+    </div>
+    
+    <footer>
+
+    </footer>
+    
+    <noscript>
+        <h2 style="color: red; margin-top: 40px; position: relative; text-align: center; text-shadow: 1px 1px #fafafa;">
+        <b><i>This website requires JavaScript.</i></b>
+        </h2>
+  
+    </noscript>
+    <script src="jquery.js"></script>
+    <script src="flappy.js"></script>
+    <script src="cv.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  
+</body>
+</html>
