@@ -8,7 +8,7 @@
 	</ul>
 </p>
 
-<h2>Outils de développemnt</h2>
+<h2>Outils de développement</h2>
 <ul>
     <li>HTML Canvas</li>
     <li>CSS</li>
@@ -22,5 +22,5 @@
     <li>Score</li>
     <li>Gestion de collision </li>
     <li>La force de gravitation</li>
-    <li>Détection de score</li>
+    
   </ul>
